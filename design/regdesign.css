@@ -1,0 +1,93 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 180px;
+  height: 100vh;
+  background: rgb(123, 216, 130);
+}
+
+.register-form {
+  
+  width: 400px;
+  padding: 40px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+h2 {
+  margin: 0 0 30px;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+
+input, select {
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background: #0080ff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  
+}
+
+button:hover {
+  background-color: #0059b3;
+}
+
+#course-options {
+  display: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+select:invalid {
+  color: #ccc;
+}
+
+select:focus {
+  outline: none;
+  box-shadow: 0
+}
+
+
+img {
+  position: absolute;
+  top: -10px;
+  width: 400px;
+  height: 400px;
+  
+}
+
+body{
+  background-color: rgb(123, 216, 130);
+}
+
+button:hover{
+  transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+  transform: translateY(-10px);
+}

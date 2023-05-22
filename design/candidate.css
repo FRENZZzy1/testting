@@ -1,0 +1,144 @@
+.card{
+    width: 300px;
+    height: 450px;
+    background: rgba(112, 102, 72, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+
+  .me{
+    color: aliceblue;
+    text-decoration: none;
+  }
+  
+  .me:hover{
+    color: rgb(33, 176, 233);
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transform: translateY(-3px);
+  }
+
+  p{
+    font-size: 10px;
+  }
+
+  .column{
+    display: flex;
+   
+  }
+
+button{
+    background-color: #0052a3;
+    border: 2px solid rgb(48, 158, 161);
+    font-size: larger;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+
+
+  .nav-link {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    }
+  
+    .home:hover{
+    transition-property: transform;
+      transition-duration: 0.3s;
+      transition-timing-function: ease;
+      transition-delay: 0s;
+      transform: translateY(-7px);
+  
+    }
+  
+    .candidates:hover{
+    transition-property: transform;
+      transition-duration: 0.3s;
+      transition-timing-function: ease;
+      transition-delay: 0s;
+      transform: translateY(-7px);
+  
+    }
+  
+  
+    .voting:hover{
+    transition-property: transform;
+      transition-duration: 0.3s;
+      transition-timing-function: ease;
+      transition-delay: 0s;
+      transform: translateY(-7px);
+    }
+  
+  
+    .result:hover{
+    transition-property: transform;
+      transition-duration: 0.3s;
+      transition-timing-function: ease;
+      transition-delay: 0s;
+      transform: translateY(-7px);
+  
+    }
+  
+    .contact:hover{
+    transition-property: transform;
+      transition-duration: 0.3s;
+      transition-timing-function: ease;
+      transition-delay: 0s;
+      transform: translateY(-7px);
+  
+    }
+
+
+
+
+    
+  .logout:hover{
+    color: red;
+    transition-property: transform;
+      transition-duration: 0.3s;
+      transition-timing-function: ease;
+      transition-delay: 0s;
+      transform: translateY(-3px);
+    }
+
+
+    h1{ 
+      text-align: center;
+    }
+
+    .BOX{   max-width: 800px;
+      margin: 30px auto;
+      padding: 40px;
+      background: #6c9115d8;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);}
+
+      .logo{
+	
+        margin: 0;
+        color: #fff;
+        font-size: 20px;
+        float: left;
+        margin-top: 5px;
+        
+      }
+
+      

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Homepage</title>
+	<link rel="stylesheet" href="design/contact.css">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #90be2491;
+		}
+		header {
+			background-color: #6c9115d8;
+			padding: 20px;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			z-index: 1;
+		}
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			margin-left: 620px;
+		}
+
+		.logo{
+	
+	margin: 0;
+	color: #fff;
+	font-size: 20px;
+	float: left;
+	margin-top: 5px;
+	font-family: Arial, sans-serif;
+	
+}
+
+		nav li {
+			margin: 0 10px;
+		}
+		nav li a {
+			color: #fff;
+			text-decoration: none;
+		}
+		main {
+			margin-top: 80px;
+			padding: 20px;
+		}
+		h1 {
+			font-size: 36px;
+			margin-bottom: 20px;
+		}
+		ul {
+			margin-bottom: 20px;
+		}
+		li {
+			margin: 10px 0;
+		}
+		footer {
+			background-color: #6c9115d8;
+			color: #fff;
+			padding: 10px;
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1 class="logo">ST URIEL ACADEMY OF TAGUIG CITY</h1>
+		<nav>
+			<ul>
+				<li><a href="home.html" class="nav-link home"><b>Home</b></a></li>
+				<li><a href="candidates.html" class="nav-link candidates"><b>Candidates</b></a></li>
+				<li><a href="voting.html" class="nav-link voting"><b>Voting</b></a></li>
+				<li><a href="result.html"class="nav-link result"><b>Results</b></a></li>
+				<li><a href="contact.html"class="nav-link contact1"><b>Contact Us</b></a></li>
+				<li><a href="login.html"class="nav-link logout"><b>Log-out</b></a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		
+
+
+		<section class="contact">
+			<div class="container">
+			  <h2>Contact Us</h2>
+			  <form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+				<button type="submit">Send Message</button>
+			  </form>
+			</div>
+		  </section>
+		
+		</ul>
+	</main>
+	
+	<footer>
+		<p>&copy; 2023 My Homepage. All rights reserved.</p>
+	</footer>
+</body>
+</html>

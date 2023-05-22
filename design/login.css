@@ -1,0 +1,103 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -200px;
+    height: 100vh;
+    background: #90be2491;
+    border:60px solid Tomato;
+    
+}
+
+.login-form {
+    margin-top: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 380px;
+    
+    padding: 40px;
+    background:#90be2491;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+h2 {
+    margin: 0 0 30px;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+
+input {
+    display: block;
+    
+    width: 100%;
+    margin: 40px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #0080ff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+
+
+
+button:hover {
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+
+    background-color: #838c94;
+    transform: translateY(-5px);
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #0080ff;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #101316;
+}
+
+body{
+    background: #90be2491;
+}
+
+body{
+    background: #90be2491;
+}
+
+img {
+    border-radius: 100%;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+  }
